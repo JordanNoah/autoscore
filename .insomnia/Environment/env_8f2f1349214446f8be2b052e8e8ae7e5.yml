@@ -1,0 +1,11 @@
+_id: env_8f2f1349214446f8be2b052e8e8ae7e5
+type: Environment
+parentId: env_eb8b95d5562e23df311b955b642662ef044802e6
+modified: 1666024440419
+created: 1666024428202
+name: Auto score
+data: {}
+dataPropertyOrder: {}
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1666024428202
