@@ -1,40 +1,30 @@
 _id: req_e5568795647040648d40c5e95cbaa630
 type: Request
 parentId: fld_5c72e08630c24383a9c50ddf99d84a34
-modified: 1666024479400
+modified: 1666284758730
 created: 1666019084362
-url: http://localhost:3000/created_autoscore
-name: created_autoscore
+url: http://localhost:3000/autoscores
+name: autoscores
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: |
     {
-    	"eventname": "\\local_autograder\\event\\autograded_created",
-    	"component": "local_autograder",
-    	"action": "created",
-    	"target": "autograded",
-    	"objecttable": "ag_event_data",
-    	"objectid": "6",
-    	"crud": "c",
-    	"edulevel": 0,
-    	"contextid": 187,
-    	"contextlevel": 70,
-    	"contextinstanceid": "70",
-    	"userid": "2",
-    	"courseid": "3",
-    	"relateduserid": "2",
-    	"anonymous": 0,
-    	"other": {
-    		"relateduserid": "2",
-    		"overrideby": null,
-    		"completionstate": 0,
-    		"studentid": "2",
-    		"grade": "10",
-    		"datetograde": "2344633200"
-    	},
-    	"timecreated": 1666002712
+        "uuid":"a8e83147-6957-5936-b508-5723ae47cebf",
+        "fired_at":"2022-06-29T00:10:05.938545Z",
+        "assignment":{
+            "user_id":1,
+            "course_id":123,
+            "context_id":13,
+            "context_instance_id":321,
+            "context_level":3311,
+            "maximum_score":9.50,
+            "date_to_grade": "2022-06-29T00:10:05.938545Z",
+            "id_teacher_grade":12
+        },
+        "institution_abbreviation":"UNIC",
+        "modality": "string"
     }
 parameters: []
 headers:
